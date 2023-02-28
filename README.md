@@ -1,5 +1,5 @@
 # CS6110-project
-# _Title: _
+# Title: Detection and Verification of Security Vulnerabilities in C Programs using Frama-C
 
 ## Abstract
 The prevalence of security vulnerabilities in software systems is a major concern for developers and users alike. Even a single vulnerability can have serious consequences, such as data breaches, system failures, or even physical harm. C is a commonly used programming language for developing software systems, including safety-critical systems, and it is therefore important to ensure that C programs are secure and free from vulnerabilities.
