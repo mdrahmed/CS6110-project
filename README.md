@@ -11,9 +11,6 @@ In this project, we can make a contribution to the field of software engineering
    
 ## References
 1. https://frama-c.com/html/overview.html
-
 2. https://github.com/manavpatnaik/frama-c-problems
-
 3. A. Fatima, S. Bibi and R. Hanif, "Comparative study on static code analysis tools for C/C++," 2018 15th International Bhurban Conference on Applied Sciences and Technology (IBCAST), Islamabad, Pakistan, 2018, pp. 465-469, doi: 10.1109/IBCAST.2018.8312265.
-
 4. Kirchner, F., Kosmatov, N., Prevosto, V. et al. Frama-C: A software analysis perspective. Form Asp Comp 27, 573–609 (2015). https://doi.org/10.1007/s00165-014-0326-7
