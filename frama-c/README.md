@@ -28,6 +28,7 @@ Following image verifies that the client subscribed to the topic appropriately,
 
 ## Publishing message
 The message content to be sent, in this example "Hello, MQTT!" has been set in the  publishing phase by initializing a string variable called payload. Using the mqtt::make_message() function, it generates a MQTT message pointer (mqtt::message_ptr) with the name pubmsg. The subject to which the message will be published is specified by the subject argument, and the payload is designated as the message's body. Using pubmsg->set_qos(0), the code reduces the Quality of Service (QoS) level for the message to 0. QoS 0 denotes that the message will only be transmitted once and does not call for the recipient's acknowledgement.By dialing, it publishes the message to the MQTT broker. The message is sent to the broker for delivery using the publish() method. Before moving on to the next line of code, the wait() method makes sure that the publishing procedure has finished. 
+
 ![image5](https://github.com/mdrahmed/CS6110-project/assets/26908164/1caec56e-425e-4bdc-8892-a8ecdbf0b258)
 
 Following image verifies that the client and publisher is able to receive and send message with the broker,
