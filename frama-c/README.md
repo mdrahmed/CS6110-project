@@ -10,6 +10,7 @@ We initially attempted to install the Frama-C software analysis platform on MacO
 ## Connection Establishment
 By invoking the client.connect(connOpts) method, a MQTT connection token (mqtt::token_ptr) with the name conntok is created. The code then uses conntok->wait() to wait for the connection to be established. It outputs "OK" following a successful connection to the MQTT server to show that the connection was successful.
 
+
 ## Subscription
 It creates a MQTT subscription token (mqtt::token_ptr) with the name subtok.the method subscribe(TOPIC, 0).Subtok->wait() is then cSubscription: alled while the code waits for the subscription request to be recognized. It prints "OK" to show that the subscription to the topic was successful after it has been successfully completed.
 
